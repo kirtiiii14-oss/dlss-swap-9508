@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0f14"/>
+  <!-- back die silhouette (right, offset up) -->
+  <polygon points="146,46 226,66 226,150 170,166 146,138" fill="none" stroke="#7c5cff" stroke-width="6" stroke-linejoin="miter"/>
+  <!-- front die silhouette (left, offset down) -->
+  <polygon points="30,106 110,90 110,190 30,210" fill="none" stroke="#39d98a" stroke-width="6" stroke-linejoin="miter"/>
+  <!-- inner die pin details back -->
+  <polyline points="158,64 210,76 210,132" fill="none" stroke="#7c5cff" stroke-width="3" opacity="0.7"/>
+  <!-- inner die pin details front -->
+  <polyline points="46,124 94,114 94,172" fill="none" stroke="#39d98a" stroke-width="3" opacity="0.7"/>
+  <!-- interlocking bridge / swap arrows -->
+  <polyline points="110,146 146,110" fill="none" stroke="#e6edf3" stroke-width="4"/>
+  <polyline points="134,108 146,110 142,122" fill="none" stroke="#e6edf3" stroke-width="4" stroke-linecap="square"/>
+  <polyline points="146,150 110,114" fill="none" stroke="#e6edf3" stroke-width="4" opacity="0.55"/>
+  <!-- central bright core -->
+  <polygon points="128,118 142,130 128,142 114,130" fill="#e6edf3"/>
+  <polygon points="128,124 136,130 128,136 120,130" fill="#39d98a"/>
+  <!-- core glow rings (geometry only) -->
+  <polygon points="128,108 154,130 128,152 102,130" fill="none" stroke="#e6edf3" stroke-width="1.5" opacity="0.35"/>
+  <!-- small technical ticks -->
+  <line x1="120" y1="94" x2="136" y2="98" stroke="#7c5cff" stroke-width="2" opacity="0.8"/>
+  <line x1="120" y1="166" x2="136" y2="162" stroke="#39d98a" stroke-width="2" opacity="0.8"/>
+  <!-- corner accents -->
+  <polyline points="16,96 16,80 32,80" fill="none" stroke="#e6edf3" stroke-width="2" opacity="0.25"/>
+  <polyline points="240,176 240,192 224,192" fill="none" stroke="#e6edf3" stroke-width="2" opacity="0.25"/>
+</svg>
